@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+}
+
+.features{
+    width:100% ;
+    clear: both;
+    display: table;
+    margin: auto;
+    padding: 30px;
+    background-color:blue;
+    color: rebeccapurple;
+}
+.feature{
+    width: 25%;
+    float: left; 
+    background-color: red;
+    padding: 10px;
+    color: aliceblue;
+}
+.courses{
+    width: 100%;
+    clear: both;
+    display: table;
+    margin: auto;
+    background-color: pink;
+    color: black;
+    padding: 30px;
+}
+.course{
+    width: 25%;
+    float: left;
+    padding: 10px;
+    background-color: violet;
+    color: black;
+}
