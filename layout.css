@@ -1,0 +1,143 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    margin: 0%;
+}
+.hero{
+    width: 100%;
+    height: 100vh;
+    background-image: url(netflixbg.jpg);
+    background-size: cover;
+}
+header{
+    width: 100%;
+    height: 20%;
+    clear: both;
+    display: table;
+    
+}
+.content{
+    width: 100%;
+    height: 80%;
+    text-align: center;
+    padding: 50px;
+    color: white;
+}
+.logo{
+    width: 50%;
+    height: 100%;
+    float: left;
+    text-align: center;
+    padding: 20px;
+}
+nav{
+    width: 50%;
+    height: 100%;
+    float: left;
+    padding: 25px;
+   
+}
+.logo img{
+    width: 200px;
+}
+nav button, nav select{
+    width: 150px;
+    height: 50px;
+    background-color: transparent;
+    color: white;
+    border: 1px, solid white;
+}
+.content input{
+    width: 300px;
+    height: 50px;
+    padding: 10px;
+
+}
+.content button{
+    width: 150px;
+    height: 50px;
+    background-color: red;
+    border: 1px solid white;
+    color: white;
+}
+.poster{
+    width: 100%;
+    background-color: black;
+    color: white;
+    clear: both;
+    display: table;
+    padding: 20px;
+    
+}
+.figure{
+    width: 25%;
+    height: 50vh;
+    background-color: black;
+    color: white;
+    float: left;
+    margin: 0%;
+}
+.figure img{
+    width: 100%;
+  height: 50vh;
+  display: block;
+}
+.Reasons{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+.boxes{
+    width: 25%;
+    height: 60vh;
+    background-color:#1c1c3c;
+    color: white;
+    float: left;
+    border: 5px solid white;
+    border-radius: 10px;
+}
+.Questions{
+    width: 100%;
+    height:100vh ;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    text-align: left;
+    margin: 0%;
+}
+.Question{
+    text-align: center;
+    padding: 10px;
+}
+details{
+    border: 1px solid white;
+    width: 50%;
+    margin: 30px auto;
+    background-color: #2d2d2d;
+}
+.started{
+   width: 100%;
+    height:100vh ;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin: 0%;
+}  
+.start input{
+    width: 300px;
+    height: 50px;
+    padding: 10px;
+
+}
+.start button{
+    width: 150px;
+    height: 50px;
+    background-color: red;
+    border: 1px solid white;
+    color: white;
+}

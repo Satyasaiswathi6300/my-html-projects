@@ -1,45 +1,104 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>layout</title>
+    <link rel="stylesheet" href="layout.css">
 </head>
 <body>
-  <header style="width: 100%; height: 100%;">
-    <img src="logo.png" alt="" style="height: 100px;">
-    <br><br>
-    <nav>
-    <button style="background-color: brown; color: white; height: 50px; width: 150px">Home</button>
-    <button style="background-color: brown; color: white; height: 50px; width: 150px;">About us</button>
-    <button style="background-color: brown; color: white; height: 50px; width: 150px;" >sample</button>
-    <button style="background-color: brown; color: white; height: 50px; width: 150px;">sample</button>
-    </nav>
-  </header>
-  <section style="background-color:brown; width: 100%; height: 300px;">
-  <img src="image6.png" style="height: 100%; width: 100%;">
-  </section>
-  <section style= "width:100%; height: 300px; text-align: center;">
-    <h1>WELCOME TO SOFTWARE COMPANY</h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis cupiditate necessitatibus tenetur ab beatae sint aliquam ipsa non fuga, officiis sapiente delectus corrupti cum, iusto illo temporibus ipsum! Minus, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, error provident aliquam saepe natus voluptatem nesciunt quasi ut dolorem officiis dignissimos! A repellendus, dolores excepturi corrupti maiores reprehenderit doloribus odit. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore, illo excepturi. Saepe aut cum quo excepturi, consectetur soluta iure aperiam accusantium tenetur incidunt delectus laborum ratione, debitis odit voluptate eos!</p>
-    <button style="background-color: brown; color: white; height: 50px; width: 150px;">Know more</button>
-    <button style="background-color: brown; color: white; height: 50px; width: 150px;">Enroll Now</button>
-  </section>
-  <section style= "width:100%; height:200px; text-align: center;">
-    <img src="image1.png" alt="">
-    <img src="image1.png" alt="">
-    <img src="image1.png" alt="">
-  </section>
-  <section style= "width:100%; height: 300px; color:black; text-align: center-;">
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores corrupti, quisquam porro quos soluta earum sint tempora incidunt expedita cupiditate excepturi fuga libero, rem rerum harum aut dignissimos quis sequi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus facere harum tempore fuga ipsa inventore voluptatem sed qui, quod aspernatur numquam, quia itaque dignissimos ex obcaecati! Explicabo laboriosam tempora delectus? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt rerum quaerat explicabo voluptas fugiat. Quod repudiandae facere voluptatum iusto quam minus consequuntur ipsam, deserunt, praesentium sit cumque possimus ab similique. Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, praesentium illum eaque accusantium voluptas impedit asperiores, hic expedita corporis ullam recusandae esse architecto nam, exercitationem nulla ex repellat facilis. Fugiat.</p>
-    <button style="background-color: brown; color: aliceblue; width: 150px; height: 50px;">sample</button>
-    <button style="background-color: brown; color: aliceblue; width: 150px; height: 50px;">sample</button>
-  </section>
-  <footer style= "width:100%; height: 100px; text-align: center;">
-    <p>Designed by swathi</p>
-  </footer>
- 
-    
-
-  </body>
+    <section class="hero">
+        <header>
+            <div class="logo"><img src="netflix.png" alt=""></div>
+            <nav>
+                <select name="" id="">
+                    <option value="">English</option>
+                    <option value="">Hindi</option>
+                </select>
+                <button>sign in</button>
+            </nav>
+        </header>
+        <div class="content">
+        <h1>Unlimited movies, shows, and more</h1>
+        <P>Starts at ₹149. Cancel at any time.</P>
+        <p>Ready to watch? Enter your email to create or restart your membership.</p>
+        <input type="email" placeholder="email adress">
+        <button>Get Started></button>
+        </div>   
+    </section>
+    <section class="poster">
+        <h2>Trending Now</h2> 
+        <div class="figure">
+            <figure>
+                <img src="fig7.jfif" alt="">
+            </figure>
+        </div>
+        <div class="figure">
+            <figure>
+                <img src="fig5.jfif" alt="">
+            </figure>
+        </div>
+        <div class="figure">
+            <figure>
+                <img src="fig33.jfif" alt="">
+            </figure>
+        </div>
+        <div class="figure">
+            <figure>
+                <img src="fig8.jfif" alt="">
+            </figure>
+        </div>    
+    </section>
+    <section class="Reasons">
+        <h2>More Reasons to join</h2>
+        <div class="boxes">
+            <h3>Enjoy on your TV</h3>
+            <p>Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more.</p>
+        </div>
+        <div class="boxes">
+            <h3>Download your shows to watch offline</h3>
+            <p>Save your favourites easily and always have something to watch..</p>
+        </div>
+        <div class="boxes">
+            <h3>Watch everywhere</h3>
+            <p>Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV.</p>
+        </div>
+        <div class="boxes">
+            <h3>Create profiles for kids</h3>
+            <p>Send kids on adventures with their favourite characters in a space made just for them — free with your membership.</p>
+        </div>
+    </section>
+    <section class="Questions">
+    <h2> Frequently Asked Questions</h2>
+    <div class="Question">
+         <details>
+        <summary>What is Netflix?</summary>
+        <p>Netflix is a streaming service that offers movies and shows.</p>
+    </details>
+    <details>
+        <summary>How much does Netflix cost?</summary>
+        <p>Watch Netflix on your smartphone, tablet, Smart TV, laptop, or streaming device, all for one fixed monthly fee. Plans range from ₹149 to ₹649/month.</p>
+    </details>
+    <details>
+        <summary>Where can I watch?</summary>
+        <p>Watch anywhere, anytime. Sign in with your Netflix account to watch instantly on the web at netflix.com from your personal computer or on any internet-connected device that offers the Netflix app, including smart TVs, smartphones, tablets, streaming media players and game consoles.
+You can also download your favourite shows with the iOS or Android app. Use downloads to watch while you're on the go and without an internet connection. Take Netflix with you anywhere.</p>
+    </details>
+    <details>
+        <summary>How do I cancel?</summary>
+        <p>Netflix is flexible. You can easily cancel your account online in two clicks. There are no cancellation fees – start or stop your account anytime.</p>
+    </details>
+    <details>
+        <summary>What can i watch on Netflix?</summary>
+        <p>Netflix has an extensive library of feature films, documentaries, shows, anime, award-winning Netflix originals, and more. Watch as much as you want, anytime you want.</p>
+    </details>
+    </div>
+    </section>
+    <section class="started">
+        <div class="start">
+            <p>Ready to watch? Enter your email to create or restart your membership.</p>
+             <input type="email" placeholder="email adress">
+             <button>Get Started></button>
+        </div>
+    </section>
+</body>
 </html>
